@@ -1,8 +1,31 @@
 body {
-    width: 80%;
+    width: 760px;
     margin: auto;
     font-family: sans-serif;
 }
+h2 {
+    text-align: center;
+}
+h3 {
+    text-decoration: underline;
+}
 p {
-    line-height: 1.6;
+    line-height: 1.2;
+}
+
+.exp-container {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.name {
+    font-size: 36px;
+}
+
+.exp-header {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
