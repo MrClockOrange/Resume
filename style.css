@@ -4,11 +4,26 @@ body {
     font-family: sans-serif;
     text-align: justify;
 }
+.intro {
+    #border-bottom: solid black 1px;
+    #background-color: lightgray;
+    align-content: center;
+}
+
+.info {
+    #border-bottom: solid black 1px;
+
+}
 h2 {
-    text-align: center;
+    text-align: left;
+    border-bottom: solid black 1px;
+    margin-bottom: 5px;
+
+
 }
 h3 {
     text-decoration: underline;
+    margin-bottom: 5px;
 }
 p {
     line-height: 1.2;
@@ -18,11 +33,31 @@ p {
     display: flex;
     text-align: justify;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
+}
+.heading-container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    gap: 50px;
+    border-bottom: solid black 1px;
+
+
+
+}
+ul {
+    margin: 0;
+    #line-height: 30px;
+}
+.info-container {
+    display: flex;
+    gap: 50px;
+
 }
 
 .name {
-    font-size: 36px;
+    font-size: 32px;
+    #margin-bottom: 10px;
 }
 
 .date {
