@@ -33,7 +33,7 @@ p {
     display: flex;
     text-align: justify;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
 }
 .heading-container  {
     display: flex;
@@ -62,7 +62,8 @@ ul {
 
 .date {
     #font-style: italic;
-    background-color: aliceblue;
+    font-weight: bold;
+    #background-color: aliceblue;
     text-align: right;
 }
 .job-title {
@@ -86,7 +87,11 @@ ul {
 }
 
 .exp-header {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.exp-header2 {
     display: flex;
     justify-content: space-between;
 }
